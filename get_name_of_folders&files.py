@@ -32,7 +32,7 @@ for name in sub_file_name:
     sorted_file_list.append(name)
 
 # write names
-filename="output_name_of_files.md"
+filename="output_names.md"
 textFile = open(filename,"w",encoding = "UTF-8") 
 for name in sorted_file_list:
     textFile.write('- '+name+'\n')
